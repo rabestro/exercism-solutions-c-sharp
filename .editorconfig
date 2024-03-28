@@ -10,8 +10,13 @@
 root = true
 
 [*]
+charset = utf-8
 indent_style = space
 indent_size = 4
+
+# Unix-style newlines with a newline ending every file
+end_of_line = lf
+insert_final_newline = true
 
 ###############################
 # .NET Coding Conventions     #
@@ -137,3 +142,6 @@ csharp_space_between_method_call_empty_parameter_list_parentheses = false
 # Wrapping preferences
 csharp_preserve_single_line_blocks = true
 csharp_preserve_single_line_statements = true
+
+[*.md]
+trim_trailing_whitespace = false
