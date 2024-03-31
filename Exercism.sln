@@ -25,6 +25,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RollTheDie", "roll-the-die\
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PhoneNumberAnalysis", "phone-number-analysis\PhoneNumberAnalysis.csproj", "{EF970CFC-F38D-4B3E-B518-2A6D815EBAFD}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NeedForSpeed", "need-for-speed\NeedForSpeed.csproj", "{6F694946-B35B-42A8-A477-2163FB5C8A2F}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -75,6 +77,10 @@ Global
 		{EF970CFC-F38D-4B3E-B518-2A6D815EBAFD}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{EF970CFC-F38D-4B3E-B518-2A6D815EBAFD}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{EF970CFC-F38D-4B3E-B518-2A6D815EBAFD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6F694946-B35B-42A8-A477-2163FB5C8A2F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6F694946-B35B-42A8-A477-2163FB5C8A2F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6F694946-B35B-42A8-A477-2163FB5C8A2F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6F694946-B35B-42A8-A477-2163FB5C8A2F}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
