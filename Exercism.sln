@@ -33,6 +33,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BirdWatcher", "bird-watcher
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TracksOnTracksOnTracks", "tracks-on-tracks-on-tracks\TracksOnTracksOnTracks.csproj", "{377F04A5-7D55-45BC-A9D4-3C4A140D532A}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "InternationalCallingConnoisseur", "international-calling-connoisseur\InternationalCallingConnoisseur.csproj", "{6B003381-0749-460B-99B7-47DD28B0B69B}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -99,6 +101,10 @@ Global
 		{377F04A5-7D55-45BC-A9D4-3C4A140D532A}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{377F04A5-7D55-45BC-A9D4-3C4A140D532A}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{377F04A5-7D55-45BC-A9D4-3C4A140D532A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6B003381-0749-460B-99B7-47DD28B0B69B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6B003381-0749-460B-99B7-47DD28B0B69B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6B003381-0749-460B-99B7-47DD28B0B69B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6B003381-0749-460B-99B7-47DD28B0B69B}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
