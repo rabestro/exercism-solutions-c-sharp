@@ -1,5 +1,3 @@
-using System;
-
 public class SpaceAge(int seconds)
 {
     public double OnEarth() => seconds / 31557600.0;
