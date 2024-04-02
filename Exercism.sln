@@ -29,6 +29,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NeedForSpeed", "need-for-sp
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SpaceAge", "space-age\SpaceAge.csproj", "{7FED30BD-7E2B-4A6F-907D-3E8B95B49B34}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BirdWatcher", "bird-watcher\BirdWatcher.csproj", "{82BF03BC-F8E7-418D-8545-628378CCD867}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -87,6 +89,10 @@ Global
 		{7FED30BD-7E2B-4A6F-907D-3E8B95B49B34}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{7FED30BD-7E2B-4A6F-907D-3E8B95B49B34}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{7FED30BD-7E2B-4A6F-907D-3E8B95B49B34}.Release|Any CPU.Build.0 = Release|Any CPU
+		{82BF03BC-F8E7-418D-8545-628378CCD867}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{82BF03BC-F8E7-418D-8545-628378CCD867}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{82BF03BC-F8E7-418D-8545-628378CCD867}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{82BF03BC-F8E7-418D-8545-628378CCD867}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
