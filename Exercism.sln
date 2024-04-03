@@ -49,6 +49,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FootballMatchReports", "foo
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CalculatorConundrum", "calculator-conundrum\CalculatorConundrum.csproj", "{4F54886F-3873-4720-9962-0F63B2359303}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Change", "change\Change.csproj", "{E47BF8DC-3549-4F64-B3F5-60F61B5D7D7C}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -147,6 +149,10 @@ Global
 		{4F54886F-3873-4720-9962-0F63B2359303}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{4F54886F-3873-4720-9962-0F63B2359303}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{4F54886F-3873-4720-9962-0F63B2359303}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E47BF8DC-3549-4F64-B3F5-60F61B5D7D7C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E47BF8DC-3549-4F64-B3F5-60F61B5D7D7C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E47BF8DC-3549-4F64-B3F5-60F61B5D7D7C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E47BF8DC-3549-4F64-B3F5-60F61B5D7D7C}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
