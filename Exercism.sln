@@ -51,6 +51,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CalculatorConundrum", "calc
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Change", "change\Change.csproj", "{E47BF8DC-3549-4F64-B3F5-60F61B5D7D7C}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Grains", "grains\Grains.csproj", "{B9C521B8-DEB1-41F1-8022-44DB6A889B41}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -153,6 +155,10 @@ Global
 		{E47BF8DC-3549-4F64-B3F5-60F61B5D7D7C}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{E47BF8DC-3549-4F64-B3F5-60F61B5D7D7C}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{E47BF8DC-3549-4F64-B3F5-60F61B5D7D7C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B9C521B8-DEB1-41F1-8022-44DB6A889B41}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B9C521B8-DEB1-41F1-8022-44DB6A889B41}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B9C521B8-DEB1-41F1-8022-44DB6A889B41}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B9C521B8-DEB1-41F1-8022-44DB6A889B41}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
