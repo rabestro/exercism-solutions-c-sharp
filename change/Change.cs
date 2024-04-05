@@ -5,35 +5,32 @@ public static class Change
 {
     public static int[] FindFewestCoins(int[] coins, int target)
     {
-        if (target == 0) return Array.Empty<int>(); // No coins for 0 change
-        if (target < 0) throw new ArgumentException("Negative change not allowed");
+        if (target < 0)
+            throw new ArgumentException("Negative change not allowed");
 
-        int[] dp = new int[target + 1];
-        int[] chosenCoin = new int[target + 1];
-
-        for (int i = 1; i <= target; i++)
+        var changes = new Dictionary<int, List<int>> { { 0, [] } };
+        var amounts = new Queue<int>();
+        amounts.Enqueue(0);
+        
+        while (amounts.Count > 0)
         {
-            dp[i] = int.MaxValue;
-            foreach (int coin in coins)
+            var amount = amounts.Dequeue();
+            var change = changes[amount];
+            if (amount == target)
+                return change.ToArray();
+
+            foreach (var coin in coins)
             {
-                if (coin > i) continue;
-                if (dp[i - coin] + 1 < dp[i])
-                {
-                    dp[i] = dp[i - coin] + 1;
-                    chosenCoin[i] = coin;
-                }
+                var total = amount + coin;
+                if (total > target) 
+                    break;
+                if (changes.ContainsKey(total))
+                    continue;
+                amounts.Enqueue(total);
+                changes[total] = [..change, coin];
             }
         }
-
-        if (dp[target] == int.MaxValue) throw new ArgumentException("Cannot find a solution");
-
-        List<int> result = new List<int>();
-        while (target > 0)
-        {
-            result.Add(chosenCoin[target]);
-            target -= chosenCoin[target];
-        }
-
-        return result.ToArray();
+        
+        throw new ArgumentException("can't make target with given coins");
     }
 }
