@@ -1,9 +1,10 @@
-using System.Text.RegularExpressions;
+using System.Linq;
 
 public static partial class Isogram
 {
-    public static bool IsIsogram(string word) => !RepeatingLetterPattern().IsMatch(word);
-
-    [GeneratedRegex(@"(\p{L}).*\1", RegexOptions.IgnoreCase, "en")]
-    private static partial Regex RepeatingLetterPattern();
+    public static bool IsIsogram(string word)
+    {
+        var letters = word.Where(char.IsLetter).ToArray();
+        return letters.Length == letters.DistinctBy(char.ToLower).Count();
+    }
 }
