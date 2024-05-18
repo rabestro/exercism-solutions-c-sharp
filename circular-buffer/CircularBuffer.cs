@@ -13,7 +13,7 @@ public class CircularBuffer<T> : Queue<T>
     {
         if (IsFull())
         {
-            throw new InvalidOperationException();
+            throw new InvalidOperationException("Cannot write to a full buffer.");
         }
 
         Enqueue(value);
